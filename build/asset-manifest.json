@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c06d7d97.chunk.css",
+    "main.js": "/static/js/main.5dfd45d2.chunk.js",
+    "main.js.map": "/static/js/main.5dfd45d2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.76528d5b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.76528d5b.js.map",
+    "static/js/2.34cb9a35.chunk.js": "/static/js/2.34cb9a35.chunk.js",
+    "static/js/2.34cb9a35.chunk.js.map": "/static/js/2.34cb9a35.chunk.js.map",
+    "static/js/3.154c21ac.chunk.js": "/static/js/3.154c21ac.chunk.js",
+    "static/js/3.154c21ac.chunk.js.map": "/static/js/3.154c21ac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c06d7d97.chunk.css.map": "/static/css/main.c06d7d97.chunk.css.map",
+    "static/js/2.34cb9a35.chunk.js.LICENSE.txt": "/static/js/2.34cb9a35.chunk.js.LICENSE.txt",
+    "static/media/check.1fd6ebdd.svg": "/static/media/check.1fd6ebdd.svg",
+    "static/media/regnify-white.acd65fb9.png": "/static/media/regnify-white.acd65fb9.png",
+    "static/media/rocket.e3cac448.svg": "/static/media/rocket.e3cac448.svg",
+    "static/media/scale.2aa24951.svg": "/static/media/scale.2aa24951.svg",
+    "static/media/verified.a5575266.svg": "/static/media/verified.a5575266.svg",
+    "static/media/world-class.a70984eb.svg": "/static/media/world-class.a70984eb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76528d5b.js",
+    "static/js/2.34cb9a35.chunk.js",
+    "static/css/main.c06d7d97.chunk.css",
+    "static/js/main.5dfd45d2.chunk.js"
+  ]
+}

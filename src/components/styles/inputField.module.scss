@@ -1,0 +1,82 @@
+@import '../../styles/variables';
+
+
+  .inputContainer {
+        margin-bottom: 20px;
+        position: relative;
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        padding: 15px 20px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &:hover {
+            border: 1px solid #333; 
+        }                
+
+        & .input_content {
+                    width: 100%;                                  
+                            
+                    & input {
+                        font-family: 'Poppins', sans-serif;
+                        width: 100%;
+                        border-radius: 6px;
+                        height: 100%;
+                        background: transparent;
+                        border: 0;
+                        padding: 10px 0;
+                        box-sizing: border-box;
+                        outline: none;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 15px;
+                        color: #333;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        resize: none;  
+                        transition: all .3s ease-in-out;  
+                                    
+
+                        &:focus + label {
+                            visibility: visible;
+                            font-size: 10px;
+                            font-weight: 600;
+                            top: 0%;
+                            background-color: #fcfcfc;
+                            padding: 0 10px;
+                            color: #999;
+                        }
+                    }
+
+                    & label {
+                        font-family: 'Poppins', sans-serif;
+                        display: block;
+                        visibility: hidden;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: #fff;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        transition: all .3s ease-in-out;
+                    }
+        }
+
+    .hideShow{
+        position: absolute;
+        right: 20px;
+        top: 23px;
+        cursor: pointer;
+
+        .hide{
+            position: absolute;
+            top: 2px;
+            right: 0;
+            display: none;
+        }
+    }
+}

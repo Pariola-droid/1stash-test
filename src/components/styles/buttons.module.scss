@@ -1,0 +1,73 @@
+@import '../../styles/variables';
+
+@keyframes rotate{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+ .button {
+                                outline: none;
+                                border: 0;
+                                text-transform: uppercase;
+                                cursor: pointer;
+                                border-radius: 10px;
+                                height: 56px;
+                                padding: 0 40px;
+                                font-size: 14px;
+                                font-weight: 600;
+                                white-space: nowrap;
+                                transition: all .3s ease-in-out;
+                                z-index: 3;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background: #333;
+                                color: #fff;
+                                position: relative;
+                                width: 100%;
+                                font-family: 'Poppins', sans-serif;
+
+                                .loader{
+        width: 40px;
+        height: 40px;
+        border: 5px solid #ffffff69;
+        border-top-color: white;
+        border-radius: 100%;
+        animation-name: rotate;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        z-index: 9;
+    }
+
+
+                                &::before {
+                                    white-space: nowrap;
+                                    transition: all .3s ease-in-out;
+                                    content: 'SIGN UP';
+                                    background-color: #f5f5fa;
+                                    text-transform: uppercase;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 0%;
+                                    height: 100%;
+                                    border-radius: 10px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    overflow: hidden;
+                                    border: 0;
+                                    color: #333;
+                                }
+
+                                &:hover::before {
+                                    width: 100%;
+                                    z-index: 5;                                    
+                                    border: 1px solid #333;
+                                }
+                            
+                        }

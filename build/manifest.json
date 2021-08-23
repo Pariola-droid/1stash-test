@@ -1,0 +1,25 @@
+{
+  "short_name": "Klas",
+  "name": "Klas: Share & Monetize Your Knowledge.",
+  "icons": [
+    {
+      "src": "klas-logo.png",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "klas-logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "klas-logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
